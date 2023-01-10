@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial;
+  /* outline: red 1px solid; */
+}
+
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.grille {
+  width: 18px;
+  height: 18px;
+  color: #5f6368;
+}
+
+.header > a {
+  margin: 13px;
+  color: #212121;
+  font-size: 0.8em;
+}
+
+.back-grille a img {
+  display: flex;
+  align-items: center;
+}
+.txt:hover {
+  text-decoration: underline;
+}
+
+.grille:hover {
+  background-color: #eff0f0;
+}
+
+.back-grille {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.back-grille:hover {
+  background-color: #eff0f0;
+  cursor: pointer;
+}
+
+.milieu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.logogoogle {
+  width: 272px;
+  height: 92px;
+}
+
+.biglogo {
+  height: 260px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.recherche {
+  height: 160px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barre {
+  width: 582px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+  margin-top: 15px;
+}
+
+.barre:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.barre:active {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.input {
+  width: 80%;
+  border: none;
+  margin-left: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.boutons {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 0 0 0;
+}
+
+.bouton1,
+.bouton2 {
+  height: 36px;
+  width: 150px;
+  margin: 11px 4px 11px 4px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.bouton1:hover,
+.bouton2:hover {
+  cursor: pointer;
+  border: 1px #dfe1e5 solid;
+}
+.photo {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  margin-right: 20px;
+}
+
+.micro {
+  width: auto;
+  height: 20px;
+  margin: auto;
+  margin-right: 30px;
+}
+
+.loupe {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-left: 13px;
+}
+
+.photo:hover,
+.micro:hover {
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  color: #70757a;
+  width: 100%;
+}
+
+.france {
+  width: 100%;
+  border-bottom: 1px #dadce0 solid;
+}
+
+.france1 {
+  margin: auto;
+  padding: 15px 30px;
+}
+
+.links {
+  margin: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer a {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.feuille {
+  margin: 20px;
+}
