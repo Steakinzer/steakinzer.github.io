@@ -1,0 +1,26 @@
+/**/ typeof vi.publisherConfig === 'function' && vi.publisherConfig({ 
+  tagConfig: { 
+       IAB_Category:'IAB17',
+	   Language:'fr,fr',
+	   PlaylistLength: 20,
+	   PlaylistMode: 1,
+	   DefaultVideo: {
+			title: "Haaland-Salah, Griezmann-Vinicius... Quelle est LA star des 4 grands championnats ?",
+			url: "https://nv.vi-serve.com/vis-media/1620/3344/1620_cb681cfacf2c4404ae7476336776f074_720p.mp4",
+			id: "1620_cb681cfacf2c4404ae7476336776f074",
+			thumbnail: "https://nv.vi-serve.com/vis-media/1620/3344/1620_cb681cfacf2c4404ae7476336776f074.jpg",
+			sourceID: '1620',
+			feedID: '3344',
+		}, 	
+  }, 
+  playerConfig: { 
+  }, 
+  viPlayerConfig: {  
+         
+  },  
+  mobile: { 
+        tagConfig: { 
+           
+           } 
+  } 
+}); 
